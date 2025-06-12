@@ -1,0 +1,7 @@
+streamlit>=1.25
+streamlit-extras
+python-docx
+pandas
+openai
+lxml
+sqlalchemy
