@@ -36,6 +36,7 @@ def smartround_interface():
 
     with st.form("form_evolucao"):
         nome = st.text_input("Nome do paciente")
+        idade = st.text_input("Idade")
         leito = st.text_input("Leito")
         sintomas = st.text_area("Sintomas / Queixas principais", height=150)
         lab = st.text_area("Exames laboratoriais", height=100)
