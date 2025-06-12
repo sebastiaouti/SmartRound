@@ -14,7 +14,7 @@ def gerar_evolucao(nome: str, leito: str, sintomas: str, lab: str, conduta: str)
         resposta = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[{"role": "user", "content": prompt}],
-            max_tokens=200,
+            max_tokens=400,
         )
         texto = resposta.choices[0].message["content"].strip()
     except Exception as e:
